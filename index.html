@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Convert JavaScript Data Into JSON </div>
+
+    <script>
+        let obj = {
+            name:'Rizwan',
+            Age:28,
+            Job:'Cricketer',
+            city:'Peshawar',
+        }
+
+         console.log(obj);
+         let json_str = JSON.stringify(obj);
+         console.log(json_str);
+         json_str =  json_str.replace('Rizwan','Babar');
+         json_str = json_str.replace('28','26');
+         console.log(json_str);
+
+         let new_obj = JSON.parse(json_str);
+         console.log(new_obj);
+
+         
+
+
+
+    </script>
+</body>
+</html>

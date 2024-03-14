@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>    <!-- Root Element -->
+<name>Alto</name>
+<price>20 Lacs</price>
+<features>Automatic</features>
+</car>   <!-- Root Element -->
+
+<Employees>
+<Employee>
+<name></name>
+<Age></Age>
+<job></job>
+</Employee>
+
+<Employee>
+<name></name>
+<Age></Age>
+<job></job>
+</Employee>
+
+<Employee>
+<name></name>
+<Age></Age>
+<job></job>
+</Employee>
+
+<Employee>
+<name></name>
+<Age></Age>
+<job></job>
+</Employee>
+
+</Employees>
+
+
+<!-- json  -->
+
+<!-- {
+    "Employee":[
+    {"name" :"Farhan" , "Age" : "24" , "job":"Manager"}
+    {"name" :"Ahmer" , "Age" : "26" , "job":"Developer"}
+    ]
+} -->
+
+{
+    "Employees":[
+    {
+        id:
+        name:
+        image:
+        product:
+    }
+
+    {
+        id:
+        name:
+        image:
+        product:
+    }
+
+    {
+        id:
+        name:
+        image:
+        product:
+    }
+
+    {
+        id:
+        name:
+        image:
+        product:
+    }
+
+    ]
+}
+
+
+<!-- js object -->
+
+let obj = {
+    name:'Farhan'
+    age:24,
+    job:'Manager'
+
+}
